@@ -17,12 +17,12 @@ export async function getServerSideProps(HtmlContext:any){
 export default function Slug(slug:any) {
   return (
     <>
-    <div className="w-screen overflow-x-hidden">
+    <div className="w-screen">
     <Header/>
 
     </div>
-    <div className="flex flex-col min-h-screen overflow-x-hidden">
-      <main className="flex flex-1 overflow-x-hidden">
+    <div className="flex flex-col min-h-screen">
+      <main className="flex flex-1">
         <Sidebar/>
         <Video lessonSlug={slug.slug}/>
 
