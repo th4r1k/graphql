@@ -1,16 +1,17 @@
-import { Player as VimePlayer, Hls, DefaultUi } from '@vime/react'
+// import { Player as VimePlayer, Hls, DefaultUi } from '@vime/react'
 
 const Player = () => (
-  <VimePlayer theme="dark">
-    <Hls crossOrigin poster="https://media.vimejs.com/poster.png">
-      <source
-        data-src="https://www.youtube.com/watch?v=wOxP4k9f5rk"
-        type="application/x-mpegURL"
-      />
-    </Hls>
+  <p>not working with Next.js</p>
+  // <VimePlayer theme="dark">
+  //   <Hls crossOrigin poster="https://media.vimejs.com/poster.png">
+  //     <source
+  //       data-src="https://www.youtube.com/watch?v=wOxP4k9f5rk"
+  //       type="application/x-mpegURL"
+  //     />
+  //   </Hls>
 
-    <DefaultUi />
-  </VimePlayer>
+  //   <DefaultUi />
+  // </VimePlayer>
 )
 
 export default Player
