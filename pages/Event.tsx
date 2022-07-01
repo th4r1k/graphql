@@ -8,9 +8,9 @@ export default function Event() {
     <>
     <div className="flex flex-col min-h-screen">
       <Header/>
-      <main className="flex flex-1">
+      <main className="sm:flex sm:flex-1">
       <Sidebar/>
-      <div className="flex-1"></div>
+      {/* <div className="flex-1"></div> */}
 
       </main>
     </div>

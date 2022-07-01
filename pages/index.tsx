@@ -33,10 +33,10 @@ const Home: NextPage = () => {
       <div className="w-full max-w-[1100px] flex flex-col-reverse items-center justify-between mt-20 mx-auto sm:flex-row">
         <div className="max-w-[640px]">
 
-          <h1 className="mt-8 tet-[2.5rem] leading-tight">
+          <h1 className="mt-8 text-[2.5rem] leading-tight text-center">
             Learn some <strong className="text-blue-500">Code</strong>
           </h1>
-          <p className="mt-4 text-gray-200 leading-relaxed">
+          <p className="mt-4 text-gray-200 leading-relaxed mx-3">
             Here you can find awesome videos to improve your code, all videos were selected from Youtube...
             This Form is just a code pratice your data will not be used, after submit you will be redirected to the content.
           </p>
