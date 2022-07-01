@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   return (
     <>
      <div className="overflow-y-hidden bg-blur bg-cover bg-no-repeat flex flex-col items-center ">
-      <div className="w-full max-w-[1100px] flex flex-col items-center justify-between mt-20 mx-auto sm:flex-row">
+      <div className="w-full max-w-[1100px] flex flex-col items-center justify-between sm:mt-20 mx-auto sm:flex-row">
         <div className="max-w-[640px]">
 
           <h1 className="mt-8 text-[2.5rem] leading-tight text-center">
